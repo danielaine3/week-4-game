@@ -55,11 +55,13 @@ body {
 
 .goal-container {
 	width:100%;
+	margin:auto;
 	text-align: center;
 }
 
 .count-container {
 	width:100%;
+	margin:auto;
 	text-align: center;
 }
 
@@ -67,8 +69,7 @@ body {
 	width:100px;
 	height:100px;
 	background-color: #FFFFFF;
-	margin:20px;
-	justify-content: center;
+	margin:auto;
 	text-align: center;
 }
 
@@ -99,12 +100,18 @@ h3 {
 	font-size:25px;
 	color:#F2A63C;
 
-
 }
 
 p {
 	font-family: barlow condensed, sans-serif;
 	color:#439EF7;
+}
+
+#losses, #wins, #total-count, #goalnumber {
+	font-family: barlow consensed, sans-serif;
+	color:#439EF7;
+	font-size: 30px;
+
 }
 
 
