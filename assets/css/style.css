@@ -21,23 +21,25 @@ body {
 }
 
 .game-container {
-	width:95%;
+	width:100%;
 	background-color:#FFFFFF;
 	padding:10px;
 	border-radius: 5%;
 	border-style: dotted;
 	border-color:#000000;
-	
+
 }
 
 .control-container {
 	width:100%;
 	background-color:#FFFFFF;
-	margin: 20px;
+	margin-top: 50px;
 	padding:10px;
 	border-radius: 5%;
 	border-style: dotted;
 	border-color:#000000;
+	justify-content: center;
+
 }
 
 .goal-number {
@@ -58,8 +60,38 @@ body {
 .counters{
 	width:100px;
 	height:100px;
-	background-color: yellow;
+	background-color: #FFFFFF;
 	margin:5px;
+}
+
+.crystal {
+	margin:20px;
+}
+
+footer {
+	justify-content: center;
+	background-color:;
+
+}
+
+.header{
+	font-family: barlow condensed, sans-serif;
+	font-size:100px;
+	text-align: center;
+	color:#71E548;
+	font-weight: bolder;
+}
+
+h1 {
+
+	font-family: barlow condensed, sans-serif;
+	font-size: 40px;
+	color:#E838A1;
+
+}
+
+p {
+	font-family: barlow condensed, sans-serif;
 }
 
 

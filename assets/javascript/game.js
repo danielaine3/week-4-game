@@ -42,8 +42,13 @@ function lose() {
 //startGame() function tells the computer how to start/restart the game
 function startGame() {
 
-	//resets totalScore at beginning of game
-	totalScore= 0;
+	//Reset totalScore to zero at beginning of each round
+	totalScore = 0;
+
+	//Print totalScore at the beginning of each round
+	$("#total-count").text(totalScore);
+
+
 
 	//GoalNumber is chosen
 	goalNumber = getRandom (19,120);
