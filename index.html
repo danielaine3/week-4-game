@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+
+		<!--Required meta tags-->
+		<meta charset= "UTF-8">
+
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			
+		<title> 
+			Crystal Collector
+		</title>
+
+	    <!--Link to reset CSS-->
+	    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+		<!--Link to Google Fonts-->
+	    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Yellowtail" rel="stylesheet">
+
+	    <!--Link to Bootstrap stylesheet-->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	    <!--Link to CSS-->
+	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	    <!--Link to JQuery file-->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+
+		<!--Header-->
+
+		<div class="jumbotron">
+
+			<h1 class="header"> Crystal Collector </h1>
+
+		</div>
+
+		<!--Main Content-->
+
+		<div class="container">
+
+			<div class= "row center-content-between">
+
+				<div class= "col-md-6 instruction-container">
+
+					<p> You will be given a random number at the start of the game.</p>
+
+					<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+
+					<p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
+
+					<p> The value of each crystal is hidden from you until you click on it. </p>
+
+					<p> Each time when the game starts, the game will change the value of each crystal.</p>
+
+				</div>
+
+				<div class= "col-md-6 game-container">
+
+					<div class="row">
+
+						<div class= "col-sm-4 goal-container">
+
+							<p>Goal Number:</p>
+							<p id= "goalnumber"></p>
+
+						</div>
+
+						<div class= "col-sm-4 count-container">
+
+							<p>Total count:</p>
+							<p id="total-count"></p>
+
+						</div>
+
+						<div class="col-sm-4 counters">
+
+							<p>Wins:</p>
+							<p id= "wins"></p>
+
+							<p>Losses:</p>
+							<p id= "losses"></p>
+
+						</div>
+							
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class= "row control-container center-content-between">
+
+				<div class= "crystal" id="pinkgem">
+
+					<img src= "assets/images/pinkgem.png" alt="gem1">
+
+				</div>
+
+				<div class= "crystal" id="greengem">
+
+					<img src= "assets/images/greengem.png" alt="gem2">
+
+				</div>
+
+				<div class= "crystal" id="orangegem">
+
+					<img src= "assets/images/orangegem.png" alt="gem3">
+
+				</div>
+
+				<div class= "crystal" id= "bluegem">
+
+					<img src="assets/images/bluegem.png" alt="gem4">
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<footer class= "row"> 
+
+			&copy; Copyright 2017 Dani Carter
+
+		</footer>
+
+		<!--Link to Javascript-->
+		<script src="assets/javascript/game.js"></script>
+			
+	</body>
+
+</html>
