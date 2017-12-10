@@ -3,13 +3,24 @@ body {
 
 }
 
-.jumbotron {
-	width:100%;
-	height:50px;
+.header-container {
+	margin: 10px auto 40px auto;
+	width:50%;
 	background-color:#FFFFFF;
+	padding:10px;
+	border-radius: 5%;
+	border-style: dotted;
+	border-color:#000000;
 
 }
 
+.header{
+	font-family: barlow condensed, sans-serif;
+	font-size:60px;
+	text-align: center;
+	color:#71E548;
+	font-weight: bolder;
+}
 
 .instruction-container {
 	width:100%;
@@ -33,7 +44,7 @@ body {
 .control-container {
 	width:100%;
 	background-color:#FFFFFF;
-	margin-top: 50px;
+	margin-top: 40px;
 	padding:10px;
 	border-radius: 5%;
 	border-style: dotted;
@@ -42,26 +53,23 @@ body {
 
 }
 
-.goal-number {
-	width:100px;
-	height:100px;
-	background-color:purple;
-	margin:5px;
+.goal-container {
+	width:100%;
+	text-align: center;
 }
 
-.total-score {
-	width:100px;
-	height: 100px;
-	background-color:green;
-	margin:5px;
-
+.count-container {
+	width:100%;
+	text-align: center;
 }
 
 .counters{
 	width:100px;
 	height:100px;
 	background-color: #FFFFFF;
-	margin:5px;
+	margin:20px;
+	justify-content: center;
+	text-align: center;
 }
 
 .crystal {
@@ -69,29 +77,34 @@ body {
 }
 
 footer {
+	
 	justify-content: center;
-	background-color:;
-
+	background-color:#71E548;
+	padding:25px;
+	margin-top:40px;
 }
 
-.header{
-	font-family: barlow condensed, sans-serif;
-	font-size:100px;
-	text-align: center;
-	color:#71E548;
-	font-weight: bolder;
-}
-
-h1 {
+h2 {
 
 	font-family: barlow condensed, sans-serif;
 	font-size: 40px;
 	color:#E838A1;
+	padding:10px;
+	text-align: center;
+
+}
+
+h3 {
+	font-family: barlow consensed, sans-serif;
+	font-size:25px;
+	color:#F2A63C;
+
 
 }
 
 p {
 	font-family: barlow condensed, sans-serif;
+	color:#439EF7;
 }
 
 
