@@ -9,14 +9,13 @@ body {
 	background-color:#FFFFFF;
 	padding:10px;
 	border-radius: 5%;
-	border-style: dotted;
-	border-color:#000000;
+	border: dotted #000000;
 
 }
 
 .header{
-	font-family: barlow condensed, sans-serif;
-	font-size:60px;
+	font-family: rouge script, cursive;
+	font-size:80px;
 	text-align: center;
 	color:#71E548;
 	font-weight: bolder;
@@ -27,8 +26,8 @@ body {
 	background-color:#FFFFFF;
 	padding:10px;
 	border-radius: 5%;
-	border-style: dotted;
-	border-color:#000000;
+	border: dotted #000000;
+
 }
 
 .game-container {
@@ -36,8 +35,7 @@ body {
 	background-color:#FFFFFF;
 	padding:10px;
 	border-radius: 5%;
-	border-style: dotted;
-	border-color:#000000;
+	border: dotted #000000;
 
 }
 
@@ -47,8 +45,7 @@ body {
 	margin-top: 40px;
 	padding:10px;
 	border-radius: 5%;
-	border-style: dotted;
-	border-color:#000000;
+	border: dotted #000000;
 	justify-content: center;
 
 }
@@ -71,6 +68,7 @@ body {
 	background-color: #FFFFFF;
 	margin:auto;
 	text-align: center;
+	padding-top: 20px;
 }
 
 .crystal {
@@ -83,12 +81,14 @@ footer {
 	background-color:#71E548;
 	padding:25px;
 	margin-top:40px;
+	border-top:dotted #000000;
+
 }
 
 h2 {
 
 	font-family: barlow condensed, sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 	color:#E838A1;
 	padding:10px;
 	text-align: center;
@@ -96,8 +96,8 @@ h2 {
 }
 
 h3 {
-	font-family: barlow consensed, sans-serif;
-	font-size:25px;
+	font-family: barlow condensed, sans-serif;
+	font-size:35px;
 	color:#F2A63C;
 
 }
@@ -105,12 +105,13 @@ h3 {
 p {
 	font-family: barlow condensed, sans-serif;
 	color:#439EF7;
+	font-size: 20px;
 }
 
 #losses, #wins, #total-count, #goalnumber {
-	font-family: barlow consensed, sans-serif;
+	font-family: barlow condensed, sans-serif;
 	color:#439EF7;
-	font-size: 30px;
+	font-size: 45px;
 
 }
 
