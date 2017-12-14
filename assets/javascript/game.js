@@ -28,7 +28,6 @@ function getRandom(min, max) {
 //win function
 function win() {
 	tada.play();
-	alert("You win!");
 	winCounter++;
 	$("#wins").text(winCounter);
 	startGame();
@@ -38,12 +37,14 @@ function win() {
 //lose function
 function lose() {
 	womp.play();
-	alert("You lose!");
 	lossCounter++;
 	$("#losses").text(lossCounter);
 	startGame();
 
 };
+
+//setup time out
+//setTimout(startGame, 1000 * 2);
 
 //startGame() function tells the computer how to start/restart the game
 function startGame() {
@@ -53,8 +54,6 @@ function startGame() {
 
 	//Print totalScore at the beginning of each round
 	$("#total-count").text(totalScore);
-
-
 
 	//GoalNumber is chosen
 	goalNumber = getRandom (19,120);
