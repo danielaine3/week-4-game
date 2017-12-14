@@ -5,15 +5,19 @@ var goalNumber = [];
 var winCounter = 0;
 var lossCounter = 0;
 
-//Create varibal for Total Score
+//Create variable for Total Score
 var totalScore = 0;
 
-//These make the
+//These make the gems objects
 var gemOne = $("<img>");
 var gemTwo = $("<img>");
 var gemThree = $("<img>");
 var gemFour = $("<img>");
 
+//Create variable for sounds
+var womp = new Audio ("assets/sounds/womp.mp3")
+var tada = new Audio ("assets/sounds/tada.wav")
+var click = new Audio ("assets/sounds/click.wav")
 
 //Functions
 //Random number generator
@@ -23,6 +27,7 @@ function getRandom(min, max) {
 
 //win function
 function win() {
+	tada.play();
 	alert("You win!");
 	winCounter++;
 	$("#wins").text(winCounter);
@@ -32,6 +37,7 @@ function win() {
 
 //lose function
 function lose() {
+	womp.play();
 	alert("You lose!");
 	lossCounter++;
 	$("#losses").text(lossCounter);
@@ -94,6 +100,9 @@ startGame();
 
 //set gems to be clicked 
 $(".crystal").on("click", function() {
+
+	//play sound
+	click.play();
 
 	//pulls the value attribut and turns it into an integer
 	var gemValue = parseInt($(this).attr("data-value"));
