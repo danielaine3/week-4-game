@@ -1,6 +1,5 @@
 body {
 	background-image: url("../images/washi/washi.png");
-
 }
 
 .header-container {
@@ -10,10 +9,9 @@ body {
 	padding:10px;
 	border-radius: 5%;
 	border: dotted #000000;
-
 }
 
-.header{
+.header {
 	font-family: rouge script, cursive;
 	font-size:80px;
 	text-align: center;
@@ -27,7 +25,6 @@ body {
 	padding:10px;
 	border-radius: 5%;
 	border: dotted #000000;
-
 }
 
 .game-container {
@@ -36,7 +33,6 @@ body {
 	padding:10px;
 	border-radius: 5%;
 	border: dotted #000000;
-
 }
 
 .control-container {
@@ -47,7 +43,6 @@ body {
 	border-radius: 5%;
 	border: dotted #000000;
 	justify-content: center;
-
 }
 
 .goal-container {
@@ -62,7 +57,7 @@ body {
 	text-align: center;
 }
 
-.counters{
+.counters {
 	width:100px;
 	height:100px;
 	background-color: #FFFFFF;
@@ -75,8 +70,7 @@ body {
 	margin:20px;
 }
 
-footer {
-	
+footer {	
 	justify-content: center;
 	background-color:#71E548;
 	padding:25px;
@@ -84,7 +78,6 @@ footer {
 	border-top:dotted #000000;
 	font-family: barlow condensed, sans-serif;
 	font-size: 20px;
-
 }
 
 h2 {
@@ -94,14 +87,12 @@ h2 {
 	color:#E838A1;
 	padding:10px;
 	text-align: center;
-
 }
 
 h3 {
 	font-family: barlow condensed, sans-serif;
 	font-size:35px;
 	color:#F2A63C;
-
 }
 
 p {
@@ -114,8 +105,4 @@ p {
 	font-family: barlow condensed, sans-serif;
 	color:#439EF7;
 	font-size: 45px;
-
 }
-
-
-
