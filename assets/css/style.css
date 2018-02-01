@@ -1,0 +1,121 @@
+body {
+	background-image: url("../images/washi/washi.png");
+
+}
+
+.header-container {
+	margin: 10px auto 40px auto;
+	width:50%;
+	background-color:#FFFFFF;
+	padding:10px;
+	border-radius: 5%;
+	border: dotted #000000;
+
+}
+
+.header{
+	font-family: rouge script, cursive;
+	font-size:80px;
+	text-align: center;
+	color:#71E548;
+	font-weight: bolder;
+}
+
+.instruction-container {
+	width:100%;
+	background-color:#FFFFFF;
+	padding:10px;
+	border-radius: 5%;
+	border: dotted #000000;
+
+}
+
+.game-container {
+	width:100%;
+	background-color:#FFFFFF;
+	padding:10px;
+	border-radius: 5%;
+	border: dotted #000000;
+
+}
+
+.control-container {
+	width:100%;
+	background-color:#FFFFFF;
+	margin-top: 40px;
+	padding:10px;
+	border-radius: 5%;
+	border: dotted #000000;
+	justify-content: center;
+
+}
+
+.goal-container {
+	width:100%;
+	margin:auto;
+	text-align: center;
+}
+
+.count-container {
+	width:100%;
+	margin:auto;
+	text-align: center;
+}
+
+.counters{
+	width:100px;
+	height:100px;
+	background-color: #FFFFFF;
+	margin:auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.crystal {
+	margin:20px;
+}
+
+footer {
+	
+	justify-content: center;
+	background-color:#71E548;
+	padding:25px;
+	margin-top:40px;
+	border-top:dotted #000000;
+	font-family: barlow condensed, sans-serif;
+	font-size: 20px;
+
+}
+
+h2 {
+
+	font-family: barlow condensed, sans-serif;
+	font-size: 50px;
+	color:#E838A1;
+	padding:10px;
+	text-align: center;
+
+}
+
+h3 {
+	font-family: barlow condensed, sans-serif;
+	font-size:35px;
+	color:#F2A63C;
+
+}
+
+p {
+	font-family: barlow condensed, sans-serif;
+	color:#439EF7;
+	font-size: 20px;
+}
+
+#losses, #wins, #total-count, #goalnumber {
+	font-family: barlow condensed, sans-serif;
+	color:#439EF7;
+	font-size: 45px;
+
+}
+
+
+
