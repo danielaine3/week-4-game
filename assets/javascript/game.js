@@ -1,24 +1,30 @@
 //This will be the goal number that is determined randomly
 var goalNumber = [];
+
 // Create variables for counters
 var winCounter = 0;
 var lossCounter = 0;
+
 //Create variable for Total Score
 var totalScore = 0;
+
 //These make the gems objects
 var gemOne = $("<img>");
 var gemTwo = $("<img>");
 var gemThree = $("<img>");
 var gemFour = $("<img>");
+
 //Create variable for sounds
-var womp = new Audio ("assets/sounds/womp.mp3")
-var tada = new Audio ("assets/sounds/tada.wav")
-var click = new Audio ("assets/sounds/click.wav")
+var womp = new Audio ("assets/sounds/womp.mp3");
+var tada = new Audio ("assets/sounds/tada.wav");
+var click = new Audio ("assets/sounds/click.wav");
+
 //Functions
 //Random number generator
 function getRandom(min, max) {
 	return Math.floor(Math.random()*(max - min) + min);
 }
+
 //win function
 function win() {
 	tada.play();
@@ -26,6 +32,7 @@ function win() {
 	$("#wins").text(winCounter);
 	startGame();
 };
+
 //lose function
 function lose() {
 	womp.play();
@@ -33,6 +40,7 @@ function lose() {
 	$("#losses").text(lossCounter);
 	startGame();
 };
+
 //startGame() function tells the computer how to start/restart the game
 function startGame() {
 	//Reset totalScore to zero at beginning of each round
@@ -56,6 +64,7 @@ function startGame() {
 	$("#orangegem").append(gemThree);
 	$("#bluegem").append(gemFour);
 };
+
 function checkScore(){
 	//If user's count equals goalNumber
 	if (totalScore === goalNumber) {
@@ -66,8 +75,10 @@ function checkScore(){
 		lose();
 	}
 };
+
 //Start game by running startGame() function
 startGame();
+
 //set gems to be clicked 
 $(".crystal").on("click", function() {
 	//play sound
